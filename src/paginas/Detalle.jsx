@@ -17,6 +17,7 @@ export function Detalle(){
                 <h1 id="detalle-title">{producto.nombre}</h1>
                 <p>{producto.descripcion}</p>
                 <p>{producto.precio}</p>
+                <Link to ="/productos">Regresar Productos</Link>
                 </>
             }
         </div>
