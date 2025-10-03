@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import { Inicio } from './paginas/Inicio'
 import { Nosotros } from './paginas/Nosotros'
 import { Productos } from './paginas/Productos'
+import { Detalle } from './paginas/Detalle' 
 import {Navbar} from './componentes/navbar'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Inicio/>}></Route>
         <Route path='/nosotros' element={<Nosotros/>}></Route>
         <Route path='/productos' element={<Productos/>}></Route>
+        <Route path='/productos/:id' element={<Detalle/>}></Route>
       </Routes>
       
     </>
