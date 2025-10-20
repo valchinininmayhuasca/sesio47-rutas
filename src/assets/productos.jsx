@@ -6,56 +6,56 @@ export const productosOficina = [
     nombre: "Juego de Escritorio de Bambú",
     descripcion: "Set elegante de bambú, incluye porta-lápices, bandeja y dispensador de notas.",
     precio: 35.99,
-    imagen: "imagen-escritorio-bambu.jpg" 
+    imagen: "https://http2.mlstatic.com/D_NQ_NP_955196-MPE69260408898_052023-O-juego-de-organizadores-de-escritorio-de-bambu-portal.webp" 
   },
   {
     id: 2,
     nombre: "Silla Ergonómica de Malla Alta",
     descripcion: "Silla con soporte lumbar ajustable y reposacabezas, ideal para largas jornadas.",
     precio: 189.99,
-    imagen: "imagen-silla-ergonomica.jpg"
+    imagen: "https://m.media-amazon.com/images/I/71Pm-xYk7DL._UF894,1000_QL80_.jpg"
   },
   {
     id: 3,
     nombre: "Monitor Ultrawide Curvo 34\"",
     descripcion: "Pantalla con resolución 2K, perfecta para multitarea y diseño gráfico.",
     precio: 450.00,
-    imagen: "imagen-monitor-ultrawide.jpg"
+    imagen: "https://www.lg.com/ec/images/monitores/md05855955/gallery/34UC99-desktop1-12072017.jpg"
   },
   {
     id: 4,
     nombre: "Teclado Mecánico Silencioso",
     descripcion: "Teclado con switches Cherry MX Brown y retroiluminación ajustable.",
     precio: 95.50,
-    imagen: "imagen-teclado-mecanico.jpg"
+    imagen: "https://i.blogs.es/b73cee/corsairk63/650_1200.jpeg"
   },
   {
     id: 5,
     nombre: "Mouse Inalámbrico Vertical",
     descripcion: "Diseño ergonómico para reducir la tensión en la muñeca, con conexión USB-C.",
     precio: 49.95,
-    imagen: "imagen-mouse-vertical.jpg"
+    imagen: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.falabella.com.pe%2Ffalabella-pe%2Fproduct%2F120780056%2FMouse-Ergonomico-Vertical-inalambrico-con-Pila-Negro%2F120780058&psig=AOvVaw05E1YahmrKCswP-3l1ES1v&ust=1760458754824000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKCqs4rKoZADFQAAAAAdAAAAABAE"
   },
   {
     id: 6,
     nombre: "Lámpara LED de Escritorio",
     descripcion: "Con tres modos de luz y puerto de carga USB integrado.",
     precio: 45.00,
-    imagen: "imagen-lampara-led.jpg"
+    imagen: "https://neodigitalperu.com/cdn/shop/products/SHDBL1269_2.jpg?v=1700690282"
   },
   {
     id: 7,
     nombre: "Cuaderno Inteligente Reutilizable",
     descripcion: "Cuaderno que se borra con un paño húmedo, compatible con apps de escaneo.",
     precio: 29.99,
-    imagen: "imagen-cuaderno-inteligente.jpg"
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4wEhD-etWaMZ0iY-LGMTAMOgrzAjgFtaCkA&s"
   },
   {
     id: 8,
     nombre: "Destructora de Papel de Corte Cruzado",
     descripcion: "Capacidad para 10 hojas, nivel de seguridad P-4.",
     precio: 85.00,
-    imagen: "imagen-destructora-papel.jpg"
+    imagen: "https://media.falabella.com/falabellaPE/139522075_01/w=800,h=800,fit=pad"
   },
   {
     id: 9,

@@ -1,7 +1,10 @@
+
 import { useState } from "react";
+import { useTheme } from "../context/themeContext"
 
 export function FormContacto() {
-
+ 
+    const { theme} = useTheme();
     const [form, setForm] = useState({ nombre: "", email: "", mensaje: "" });
     const [errores, setErrores] = useState({});
 
@@ -65,7 +68,8 @@ export function FormContacto() {
 
     // Renderizado del formulario
     return (
-        <form id="contacto" onSubmit={handleSubmit}>
+        <div className={theme === "dark" ? "min-h-dvh bg-gray-900 text-white" : "min-h-dvh bg-white text-gray-900"}>
+            <form id="contacto" onSubmit={handleSubmit}>
             {/* Título del formulario */}
             <h2>Formulario de Contacto</h2>
 
@@ -112,5 +116,7 @@ export function FormContacto() {
             {/* Botón para enviar el formulario */}
             <button type="submit">Enviar</button>
         </form>
+        </div>
+        
     );
 }

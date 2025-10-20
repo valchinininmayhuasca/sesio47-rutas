@@ -1,13 +1,18 @@
+
 // Productos.jsx
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTheme } from "../context/themeContext"
 // Importa la lista de productos desde el archivo 'productos.js'
 import { productosOficina } from '../assets/productos';
 
 export function Productos() {
+
+  const { theme } = useTheme();
+  
   return (
-    <div>
+    <div className={theme === "dark" ? "min-h-dvh bg-gray-900 text-white" : "min-h-dvh bg-white text-gray-900"}>
       <h1>Catálogo de Productos de Oficina 🏢</h1>
 
       {/* Contenedor principal con estilos básicos para la cuadrícula */}
